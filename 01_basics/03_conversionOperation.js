@@ -23,16 +23,22 @@ console.log(valueInNum)
 //"hitesh" =>NaN
 //true (boolean) => 1 : false =>0
 
-
+/*
 let var3 = "hitest"
 
 let var4 = Boolean(var3)
 console.log(var4)
+*/
 
 //1=> true
 //"hitest"=>true
 //""=>false
 
 
+let someNum = 33
+
+let stringNum = String(someNum)
+console.log(typeof stringNum)
+console.log(stringNum)
 
 
