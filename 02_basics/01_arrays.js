@@ -41,4 +41,26 @@ console.log(newArr)
 console.log(typeof newArr)
 */
 
-console.log("A" ,m)
+
+
+console.log("A " ,myArr)
+const myn1 = myArr.slice(1,3)
+
+console.log(myn1)
+console.log("B ", myArr)
+
+const myn2 = myArr.splice(1,3)
+console.log(myn2)
+console.log("C ",myArr)
+
+/*
+splice includes from pos 1 to 3 including 1 and 3 both
+slice includes from pos 1 to 3 excluding 3
+
+imp point to note is
+
+splice changes the original array 
+slice doesn't change the original array
+*/
+
+
